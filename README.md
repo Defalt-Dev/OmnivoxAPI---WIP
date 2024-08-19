@@ -44,7 +44,7 @@ It consists of 4 main parts:
 ### Note this jar was built with Java 11
 
 ## Implementation
-Currently, this API supports only the Champlain and Maisonneuve CEGEPs. To support your CEGEP interface, which is different than Champlain and Maisonneuve, you need to extend two classes (OmnivoxScraper and Assembler) and implement their abstract methods. 
+Currently, this API supports only the Champlain and Maisonneuve CEGEPs, and this fork is working on adding support for Dawson College and Édouard-Montpetit CEGEPs. To support your CEGEP interface, which is different than Champlain and Maisonneuve, you need to extend two classes (OmnivoxScraper and Assembler) and implement their abstract methods. 
 
 OmnivoxScraper:
 * getDocumentPages(): Gets the document page of each course.
@@ -58,6 +58,3 @@ Assembler:
 * assembleCalendarEvents(HtmlPage page): Gets all the calendar events on the home page and assembles them into usable objects.
 
 Please refer to the implemented method or documentation to better understand the methods.
-
-## Help
-If you want this project to support additional CEGEP(s), feel free to make a pull request.
