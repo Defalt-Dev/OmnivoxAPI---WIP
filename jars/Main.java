@@ -1,7 +1,9 @@
 import assemblers.Assembler;
 import assemblers.ChamplainAssembler;
+import assemblers.DawsonAssembler;
 import assemblers.MaisonneuveAssembler;
 import scrapers.ChamplainScraper;
+import scrapers.DawsonScraper;
 import scrapers.MaisonneuveScraper;
 import scrapers.OmnivoxScraper;
 import students.Student;
